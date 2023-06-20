@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Slick CSS -->
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+
+    <!-- TailWind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .text-facebook-color:hover {
+            color: #1877F2;
+        }
+    
+        .text-instagram-color:hover {
+            color: #E4405F;
+        }
+    
+        .text-github-color:hover {
+            color: #181717;
+        }
+    </style>   
+</head>
+<body>
+    <nav class="flex p-5 bg-gray-800 text-white justify-between">
+        <div class="flex items-center">
+            <h2 class="text-2xl font-bold mr-10">Lorem ipsum</h2>
+            <ul class="flex gap-3">
+                <li class="hover:text-blue-400 transition-colors font-semibold"><a href="#">Lorem ipsum</a></li>
+                <li class="hover:text-blue-400 transition-colors font-semibold"><a href="#">Lorem ipsum</a></li>
+                <li class="hover:text-blue-400 transition-colors font-semibold"><a href="#">Lorem ipsum</a></li>
+            </ul>
+        </div>
+        <div class="flex w-12">
+            <img class="rounded-full" src= "profile.png" alt="">
+        </div>
+    </nav>
+    <section class="bg-[url('px2.png')] bg-cover bg-center">
+        <div class="container mx-auto py-20">
+            <div class="w-72 text-center bg-gray-800/[0.6] px-5 py-10 text-white rounded-lg hover:scale-105 transition-transform">
+                <h1 class="text-2xl font-bold">Lorem ipsum</h1>
+                <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            </div>
+        </div>
+    </section>
+    <section class="mt-10">
+        <div class="container flex mx-auto gap-3">
+            <div class="w-full flex flex-col gap-3 text-justify">
+                <h1 class="text-center text-2xl font-extrabold mb-5">Sobre mim</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam quaerat vel ipsa possimus ullam labore, tenetur blanditiis assumenda accusamus excepturi recusandae. Culpa, tempore optio. Similique nihil possimus a reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam quaerat vel ipsa possimus ullam labore, tenetur blanditiis assumenda accusamus excepturi recusandae. Culpa, tempore optio. Similique nihil possimus a reprehenderit!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam quaerat vel ipsa possimus ullam labore, tenetur blanditiis assumenda accusamus excepturi recusandae. Culpa, tempore optio. Similique nihil possimus a reprehenderit!</p>
+            </div>
+            <div class="w-full flex items-center justify-center" id="sites">
+                <a href="#">
+                    <div class="flex flex-col items-center justify-center w-60 h-60 rounded-md drop-shadow-md shadow-md hover:scale-105 hover:shadow-xl transition-all">
+                        <h1 class="text-2xl font-bold">Lorem ipsum</h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>  
+    <section class="bg-gray-800 mt-10 text-white">
+        <div class="container flex mx-auto">
+            <div class="w-full flex flex-col justify-center items-center gap-3">
+                <h1 class="text-4xl font-bold">Lorem ipsum dolor</h1>
+                <span class="text-sm italic">Lorem ipsum dolor</span>
+            </div>
+            <div class="w-full flex flex-col gap-3 p-6">
+                <form action="" class="flex flex-col gap-3 py-5">
+                    <div class="col-span-1 flex gap-3">
+                        <input class="w-full py-3 px-6 bg-gray-500/[.05] rounded-full outline-none" type="text" name="nome" placeholder="Nome">
+                        <input class="w-full py-3 px-6 bg-gray-500/[.05] rounded-full outline-none" type="email" name="email" placeholder="E-mail">
+                    </div>
+                    <textarea name="mensagem" class="w-full py-3 px-6 bg-gray-500/[.05] rounded-md outline-none" rows="5" placeholder="Digite a mensagem para oque deseja"></textarea>
+                    <button class="w-full font-semibold rounded-full bg-blue-700 py-2 px-6 hover:bg-blue-900 hover:scale-105 transition-all outline-none">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="flex flex-col items-center mt-10 p-10">
+        <ul class="flex gap-3">
+            <li class="text-md font-semibold hover:text-blue-700 transition-all"><a href="#">Web design</a></li>
+            <li class="text-md font-semibold hover:text-blue-700 transition-all"><a href="#">Development</a></li>
+            <li class="text-md font-semibold hover:text-blue-700 transition-all"><a href="#">Hosting</a></li>
+        </ul>
+        <ul class="flex gap-6 mt-5">
+            <li><a href="#"><i class="bi bi-facebook text-2xl text-facebook-color transition-all"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram text-2xl text-instagram-color transition-all"></i></a></li>
+            <li><a href="#"><i class="bi bi-github text-2xl text-github-color transition-all"></i></a></li>
+        </ul>      
+        <span class="mt-10">&copy; 2023 - João Vitor Rodrigues Brito</span>
+    </section>
+    
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <!-- Slick JS -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    
+    <script>
+        // $(document).ready(function(){
+        //     $('#sites').slick({
+        //         infinite: true,
+        //         slidesToShow: 3,
+        //         slidesToScroll: 3
+        //     });
+        // });
+    </script>
+</body>
+</html>
